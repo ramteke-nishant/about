@@ -4,9 +4,11 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file path */
-    background-size: cover; /* Cover the entire background */
-    background-position: center top; /* Center the background image */
+    background-size: cover;  /* Cover the entire background */
+    background-position: top center;  /* Center the background image */
+    background-repeat: no-repeat; /* Ensure the background image does not repeat */
     font-family: Arial, sans-serif; /* Example font for the body */
+
 }
 
 .container {
