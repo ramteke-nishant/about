@@ -1,0 +1,26 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center top; /* Center the background image */
+    font-family: Arial, sans-serif; /* Example font for the body */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Example semi-transparent background */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
