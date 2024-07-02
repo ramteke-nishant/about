@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file path */
+    background-size: cover;  /* Cover the entire background */
+    background-position: top center;  /* Center the background image */
+    background-repeat: no-repeat; /* Ensure the background image does not repeat */
+    font-family: 'Roboto', sans-serif; /* Improved font for better readability */
+    color: #333; /* Default text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly less transparent for better readability */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-10px); /* Lift up on hover */
+}
+
+h1 {
+    font-size: 2.5em; /* Larger and bolder headline */
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+}
+
+p {
+    font-size: 1.1em; /* Slightly larger paragraph text */
+    line-height: 1.6; /* Better line spacing for readability */
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF; /* Button color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
